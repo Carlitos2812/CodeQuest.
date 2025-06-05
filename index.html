@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeQuest - Juego de Puntuación</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+    <h1>🧠 CodeQuest - Juego de Puntuación</h1>
+    <div id="level-info"></div>
+    <div id="sentence"></div>
+    <input type="text" id="answer" placeholder="Escribe la palabra o puntuación correcta">
+    <button onclick="checkAnswer()">Comprobar</button>
+    <p id="feedback"></p>
+    <p id="score">Puntaje: 0</p>
+  </div>
+
+  <script src="levels.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
